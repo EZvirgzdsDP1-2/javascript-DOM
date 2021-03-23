@@ -6,4 +6,4 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+I copy pasted the 2.tasks hml and java scpt files, and I replaced hidden with block.

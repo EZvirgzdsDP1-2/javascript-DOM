@@ -11,6 +11,7 @@ window.addEventListener("load", function(){
       if (typedCharacters === maxCharacters) {
         middleNumbers.focus();
       }
+    
     });
   
     middleNumbers.addEventListener("keyup", function() {
@@ -20,6 +21,7 @@ window.addEventListener("load", function(){
       if (typedCharacters === maxCharacters) {
         endNumbers.focus();
       }
+    
     });
   
   });

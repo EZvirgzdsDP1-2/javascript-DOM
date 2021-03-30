@@ -1,23 +1,23 @@
 window.addEventListener("load", function(){
 
-    var button = document.getElementById('toggle_button');
+  var button = document.getElementById('toggle_button');
   
-    button.addEventListener("click", function() {
+  button.addEventListener("click", function() {
   
-      var movieList = document.querySelectorAll("ul.second_two li");
+    var movieList = document.querySelectorAll("ul.second_two li");
   
-      for (var i = 0; i < movieList.length; i++) {
+    for (var i = 0; i < movieList.length; i++) {
         
-        if (movieList[i].style.display === "list-item") {
-          movieList[i].style.display = "none";
+      if (movieList[i].style.display === "list-item") {
+            movieList[i].style.display = "none";
         }
         
-        else {
+      else {
             movieList[i].style.display = "list-item";
         }
       
       }
   
     });
-  
-  });
+    
+});

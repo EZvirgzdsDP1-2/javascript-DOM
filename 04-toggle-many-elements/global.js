@@ -4,14 +4,11 @@ window.addEventListener("load", function(){
 
         var hideClass=document.getElementsByClassName("toggle_me");
         
-        for(var i = 0; i < hideClass.length; i++)
-        {
-            if (hideClass[i].style.display=="none" )
-            {
+        for(var i = 0; i < hideClass.length; i++){
+            if (hideClass[i].style.display=="none" ){
                 hideClass[i].style.display = "block";
             }
-            else
-            {
+            else{
                 hideClass[i].style.display="none";
             }
         }

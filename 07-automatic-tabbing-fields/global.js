@@ -1,12 +1,12 @@
 window.addEventListener("load", function(){
 
-    var areaCode = document.getElementById('first');
+    var firstNumbers = document.getElementById('first');
     var middleNumbers = document.getElementById('second');
     var endNumbers = document.getElementById('third');
   
-    areaCode.addEventListener("keyup", function() {
-      typedCharacters = areaCode.value.length;
-      maxCharacters = parseInt(areaCode.getAttribute("maxlength"));
+    firstNumbers.addEventListener("keyup", function() {
+      typedCharacters = firstNumbers.value.length;
+      maxCharacters = parseInt(firstNumbers.getAttribute("maxlength"));
   
       if (typedCharacters === maxCharacters) {
         middleNumbers.focus();

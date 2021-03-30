@@ -1,12 +1,12 @@
 window.addEventListener("load", function(){
 
-    var name_field = document.getElementById("vards");
+    var nameField = document.getElementById("vards");
   
-    name_field.addEventListener("keyup", function() {
+    nameField.addEventListener("keyup", function() {
   
-      var greeting_div = document.getElementById("sveiciens");
+      var greetingDiv = document.getElementById("sveiciens");
   
-      greeting_div.innerHTML = ("Sveiki, " + name_field.value + "!");
+      greetingDiv.innerHTML = ("Sveiki, " + nameField.value + "!");
   
     });
   
